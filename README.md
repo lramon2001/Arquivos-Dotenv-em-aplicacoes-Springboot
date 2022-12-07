@@ -6,3 +6,14 @@ Arquivos Dotenv em aplicacoes Springboot .env- Repositorio criado para documenta
 Na aula 1 o professor apresentou a estrutura do projeto base e o link da realese para que download.
 
 - Clique [aqui](https://github.com/treinaweb/treinaweb-spring-dotenv/releases/tag/v1.0) para acessar a realease.
+
+## Aula 2
+Na aula 2 o professor adicionou a dependencia do spring-dotenv
+
+```xml
+<dependency>
+<groupId>me.paulschwarz</groupId>
+<artifactId>spring-dotenv</artifactId>
+<version> 2.3.0</version>
+</dependency>
+```
