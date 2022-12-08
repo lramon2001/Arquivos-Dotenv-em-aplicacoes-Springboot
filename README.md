@@ -17,3 +17,9 @@ Na aula 2 o professor adicionou a dependencia do spring-dotenv
 <version> 2.3.0</version>
 </dependency>
 ```
+No arquivo .env você deve usar a seguinte estrutura
+
+```.env
+NOME_DA_VARIAVEL = valor_da_variavel
+
+```
