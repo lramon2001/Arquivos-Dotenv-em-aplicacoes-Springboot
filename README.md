@@ -21,5 +21,10 @@ No arquivo .env você deve usar a seguinte estrutura
 
 ```.env
 NOME_DA_VARIAVEL = valor_da_variavel
+```
 
+No aplication.proporties 
+
+```.properties
+variavel.spring.exemplo = {$env.NOME_DA_VARIAVEL_QUE_FAZ_REFERENCIA_NO_DOT_ENV}
 ```
